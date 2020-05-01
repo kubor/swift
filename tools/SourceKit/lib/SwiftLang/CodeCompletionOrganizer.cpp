@@ -1219,6 +1219,7 @@ void CompletionBuilder::getFilterName(CodeCompletionString *str,
       case ChunkKind::TypeAnnotation:
       case ChunkKind::CallParameterInternalName:
       case ChunkKind::CallParameterClosureType:
+      case ChunkKind::CallParameterClosureExpr:
       case ChunkKind::CallParameterType:
       case ChunkKind::DeclAttrParamColon:
       case ChunkKind::Comma:
